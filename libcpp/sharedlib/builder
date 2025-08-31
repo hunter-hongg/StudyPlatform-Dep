@@ -1,0 +1,8 @@
+#!/bin/bash
+cd lib
+g++ ../src/*.cpp -c -I../include -o a.o -std=c++17
+ar rcs libsharedlib.a ./*.o
+echo '编译成功'
+if [ "$1" != "build"];then
+    echo "未知命令：$1"
+fi

@@ -1,0 +1,13 @@
+[package]
+name = "rustffi"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+rand_chacha = "0.3"
+rand_core = "0.6"
+rand = "0.8"
+

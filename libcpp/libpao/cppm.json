@@ -1,0 +1,14 @@
+{
+    "name": "libpao",
+    "type": "lib",
+    "version": "1.0.0",
+    "src_dir": "src",
+    "include_dir": "include",
+    "target_dir": "target",
+    "compiler": "g++",
+    "cpp_version": "c++17",
+    "optimization": "debug",
+    "flags": "-Wall -Wextra",
+    "libs": "",
+    "include_paths": []
+}

@@ -1,0 +1,14 @@
+{
+    "name": "test",
+    "type": "bin",
+    "version": "1.0.0",
+    "src_dir": "src",
+    "include_dir": "include",
+    "target_dir": "target",
+    "compiler": "g++",
+    "cpp_version": "c++17",
+    "optimization": "debug",
+    "flags": "-Wall -Wextra -Wwrite-strings",
+    "libs": " -Llib -lFFI_Zig_AncientGuWanCha",
+    "include_paths": []
+}
