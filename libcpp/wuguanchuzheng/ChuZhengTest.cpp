@@ -26,7 +26,6 @@ int out_thing(Choices a, Choices b) {
     return 0;
 }
 int main() {
-    /*
     out_thing(chojin, chojin);
     out_thing(chojin, choxiu);
     out_thing(chojin, chofang);
@@ -43,11 +42,12 @@ int main() {
     out_thing(chotou, choxiu);
     out_thing(chotou, chofang);
     out_thing(chotou, chotou);
-    */
+    /*
     std::cout << "test1: " << choices_to_string(
         GetChoice(255, 500)) << std::endl;
     std::cout << "test2: " << choices_to_string(
         GetChoice(255, 250)) << std::endl;
     std::cout << "test3: " << choices_to_string(
         GetChoice(255, 50)) << std::endl;
+    */
 }
