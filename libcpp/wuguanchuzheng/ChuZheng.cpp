@@ -27,13 +27,13 @@ std::vector<int> GetResult(Choices a, Choices b){
         ((a == Choices::FangShou) && (b == Choices::JinGong))) {
         if ( a == Choices::JinGong ) {
             return std::vector<int>({
-                ((-20)+rand()%11-5), 
+                ((-35)+rand()%11-5), 
                 ((-5)+rand()%11-5), 
             }); 
         } else {
             return std::vector<int>({
                 ((-5)+rand()%11-5), 
-                ((-20)+rand()%11-5), 
+                ((-35)+rand()%11-5), 
             }); 
         }
     } else if (
@@ -41,13 +41,13 @@ std::vector<int> GetResult(Choices a, Choices b){
         ((a == Choices::TouXi) && (b == Choices::JinGong))) {
         if ( a == Choices::JinGong ) {
             return std::vector<int>({
-                ((-5)+rand()%11-5), 
+                ((-20)+rand()%11-5), 
                 ((-40)+rand()%11-5), 
             }); 
         } else {
             return std::vector<int>({
                 ((-40)+rand()%11-5), 
-                ((-5)+rand()%11-5), 
+                ((-20)+rand()%11-5), 
             }); 
         }
     } else if ((a == Choices::XiuZheng) && (b == Choices::XiuZheng)) {
